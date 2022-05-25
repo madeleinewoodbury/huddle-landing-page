@@ -14,16 +14,14 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+  background-color: var(--violet);
   background-image: url("./images/bg-desktop.svg");
-  background-size: cover;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
 }
 
 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: var(--violet);
-}
-
-p {
-  color: var(--soft-magenta);
 }
