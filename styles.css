@@ -17,11 +17,39 @@ body {
   background-color: var(--violet);
   background-image: url("./images/bg-desktop.svg");
   background-size: contain;
+  color: white;
   width: 100vw;
   height: 100vh;
+}
+
+header {
+  height: 10vh;
+}
+
+.layout {
+  width: 1440px;
+  height: 80vh;
+  padding: 0 40px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout div:nth-of-type(2) {
+  padding: 0 30px;
 }
 
 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  font-size: 2.2rem;
+}
+
+p {
+  line-height: 1.5;
+}
+
+footer {
+  height: 10vh;
 }
