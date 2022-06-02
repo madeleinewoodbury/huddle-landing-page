@@ -71,6 +71,11 @@ h1 {
   font-family: "Poppins", sans-serif;
 }
 
+.btn:hover {
+  background-color: var(--soft-magenta);
+  color: white;
+}
+
 footer {
   height: 10vh;
 }
@@ -90,4 +95,9 @@ footer {
   text-align: center;
   font-size: 0.9rem;
   margin: 0 5px;
+}
+
+.links a:hover {
+  color: var(--soft-magenta);
+  border-color: var(--soft-magenta);
 }
